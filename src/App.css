@@ -60,6 +60,10 @@ li {
   height: 120px;
   margin-bottom: 10px;
 }
+.answer_img:hover{
+  opacity: 0.4;
+
+}
 img {
   vertical-align: middle;
   border: 0;
