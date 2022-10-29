@@ -1,11 +1,22 @@
+
+body{
+  background-color: rgb(115, 40, 235);
+
+}
 .App {
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
-  background-color: rgb(115, 40, 235);
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
+}
+
+
+
+.discription{
+  text-align: left;
+
 }
 
 .brain_img {
@@ -93,4 +104,24 @@ span {
 }
 .exit-btn {
   font-size: larger;
+}
+
+
+@media (max-width: 600px) {
+  .question_img{
+    width: 400px;
+    height: 200px;
+  }
+  .answer_img{
+    width: 85px;
+  }
+
+  html {
+    font-size: 55%;
+  }
+  body {
+    padding-right: 0;
+    height: 100%;
+  }
+ 
 }

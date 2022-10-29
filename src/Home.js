@@ -2,11 +2,13 @@ import React from "react";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+import './App.css'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="home">
       <Navbar />
+      <div className="container">
       <img
         className="img"
         src="https://en.testometrika.com/upload/uf/066/066f89ecf51a3df5cbb83dcebebe5d7e.svg"
@@ -29,6 +31,7 @@ export default function Home() {
         online, find out your intelligence level, and be sure to share the
         results with your friends! Let's get started!
       </p>
+      </div>
     </div>
   );
 }
