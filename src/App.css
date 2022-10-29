@@ -115,9 +115,13 @@ span {
   .answer_img{
     width: 85px;
   }
+  .img{
+    height: 150px;
+    width: 100px;
+  }
 
   html {
-    font-size: 55%;
+    font-size: 65%;
   }
   body {
     padding-right: 0;
